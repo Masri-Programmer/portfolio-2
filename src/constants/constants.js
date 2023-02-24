@@ -1,0 +1,83 @@
+export const projects = [
+
+  {
+    title: 'HOO MODERN BANK',
+    description: "HOO MODERN BANK is a modern and responsive banking website that uses the latest technologies for future payment methods. The website offers a user-friendly interface for customers to access their bank accounts, make transactions, and manage their finances.",
+    image: '/images/6.png',
+    tags: ['React', 'Vite', 'TailwindCSS'],
+    source: 'https://github.com/Masri-Programmer/modern_bank',
+    visit: 'https://masri-programmer.github.io/modern_bank/',
+    id: 2,
+  },
+  {
+    title: 'Openai',
+    description: "This is a resource website that provides information about Artificial Intelligence (AI) and ChatGPT, a large language model trained by OpenAI. The website aims to educate people about AI and its various applications, as well as showcase the capabilities of ChatGPT.",
+    image: '/images/7.png',
+    tags: ['React', 'Vite', 'TailwindCSS'],
+    source: 'https://github.com/Masri-Programmer/openai',
+    visit: 'https://masri-programmer.github.io/openai/',
+    id: 1,
+  },
+  {
+    title: 'Petite Restaurant Menu',
+    description: "This website features the menu of the Petite Restaurant, which is known for offering fine dining experience. It provides an easy-to-use interface for customers to browse through the menu items and place their orders",
+    image: '/images/8.png',
+    tags: ['React', 'Vite', 'TailwindCSS'],
+    source: 'https://github.com/Masri-Programmer/modern_restaurant',
+    visit: 'https://masri-programmer.github.io/modern_restaurant/',
+    id: 0,
+  },
+
+  {
+    title: 'Business Management Software',
+    description: "Business Management Software is a website that helps companies to sell their digital services. The design is created by @Brainkets, a Software Development Company, ensuring a robust and secure platform for managing different aspects of a business, from sales and marketing to customer management and reporting.",
+    image: '/images/2.png',
+    tags: ['HTML', 'CSS', 'JS', 'BOOTSTRAP'],
+    source: 'https://github.com/Masri-Programmer/BeeFlex',
+    visit: 'https://masri-programmer.github.io/BeeFlex/',
+    id: 6,
+  },
+  {
+    title: 'Portfolio Page',
+    description: "Portfolio Page is a code repository that showcases the journey of a front-end developer towards becoming a professional full-stack developer. This platform provides an opportunity for sharing and learning from the experience, techniques, and skills gained throughout the journey.",
+    image: '/images/3.png',
+    tags: ['HTML', 'CSS'],
+    source: 'https://github.com/Masri-Programmer/Portfolio',
+    visit: 'https://masri-programmer.github.io/Portfolio/',
+    id: 5,
+  },
+  {
+    title: 'Tasty Restaurant',
+    description: "Tasty Restaurant is an elegant restaurant website that is inspired by the talented chef Joud Yazbek. The website offers a classical design and a variety of delicious dishes from both international and Lebanese cuisine, ensuring a memorable dining experience for all.",
+    image: '/images/4.png',
+    tags: ['HTML', 'CSS', 'NODEJS', 'REST API', 'Firebase'],
+    source: 'https://github.com/Masri-Programmer/Restaurant101',
+    visit: 'https://masri-programmer.github.io/Restaurant101/',
+    id: 4,
+  },
+  {
+    title: 'Royal Cars',
+    description: "Our user-friendly platform allows you to browse and compare different models and pricing options, so you can choose the best car that fits your budget and preferences. Plus, our simple online booking system makes it easy to reserve your chosen vehicle with just a few clicks. ",
+    image: '/images/5.png',
+    tags: ['ANGULARJS', 'HTML', 'CSS'],
+    source: 'https://github.com/Masri-Programmer/RoyalCars',
+    visit: 'https://masri-programmer.github.io/RoyalCars/',
+    id: 3,
+  },
+  {
+    title: 'Eshopper',
+    description: "Eshopper is a social media app that allows users to post interesting events that happened in their lives. Developed using AngularJs, Node.js, Nodemailer Express & MySQL, the app provides a simple and engaging platform for users to share their experiences, connect with others, and discover new things.",
+    image: '/images/1.png',
+    tags: ['MySQL', 'Express', 'Angular', 'NodeJs'],
+    source: 'https://github.com/Masri-Programmer/Ecommerce',
+    visit: 'https://masri-programmer.github.io/Ecommerce/',
+    id: 7,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2020, text: 'Started my journey as a computer science student, where I gained foundational knowledge in programming and computer systems', },
+  { year: 2021, text: ' Worked as a freelance developer to help my acquaintance, where I applied my skills in real-world projects and gained practical experience in software development', },
+  { year: 2022, text: 'Landed my first job as an instructor, where I shared my knowledge and passion for programming with students and helped them develop their skills', },
+  { year: 2023, text: 'Landed a full-stack job at Brainkets, where I am using my skills and expertise in web development to create innovative and modern software solutions for clients', },
+];
